@@ -1,0 +1,21 @@
+[package]
+name = "payout-memo-binding"
+version = "0.1.0"
+edition = "2021"
+description = "Payout memo binding check — validates that a payout destination's required memo matches the expected memo before release."
+license = "MIT"
+publish = false
+readme = "README.md"
+
+[lib]
+name = "payout_memo_binding"
+path = "src/lib.rs"
+crate-type = ["rlib"]
+
+[workspace]
+
+[dependencies]
+soroban-sdk = "22.0.11"
+
+[dev-dependencies]
+soroban-sdk = { version = "22.0.11" }
