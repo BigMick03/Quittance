@@ -1,0 +1,17 @@
+[package]
+name = "batch-create-guard"
+version = "0.1.0"
+edition = "2021"
+description = "Batch invoice creation guard — validates a batch of invoice-creation requests against a maximum batch size and a maximum total amount."
+license = "MIT"
+publish = false
+readme = "README.md"
+
+[lib]
+name = "batch_create_guard"
+path = "src/lib.rs"
+crate-type = ["rlib"]
+
+[workspace]
+
+[dev-dependencies]
