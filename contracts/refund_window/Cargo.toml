@@ -1,0 +1,17 @@
+[package]
+name = "refund-window"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.74"
+description = "Refund window check measured in Stellar ledger sequences."
+license = "MIT"
+readme = "README.md"
+keywords = ["stellar", "soroban", "refund", "ledger", "quittance"]
+categories = ["finance"]
+publish = false
+
+[workspace]
+
+[lib]
+name = "refund_window"
+path = "src/lib.rs"
