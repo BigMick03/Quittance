@@ -1,0 +1,17 @@
+[package]
+name = "price-snapshot-guard"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.74"
+description = "Price snapshot staleness check for Quittance rate quotes."
+license = "MIT"
+readme = "README.md"
+keywords = ["stellar", "soroban", "price", "snapshot", "quittance"]
+categories = ["finance"]
+publish = false
+
+[workspace]
+
+[lib]
+name = "price_snapshot_guard"
+path = "src/lib.rs"
