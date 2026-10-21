@@ -1,0 +1,17 @@
+[package]
+name = "seller-reputation-counter"
+version = "0.1.0"
+edition = "2021"
+description = "Seller reputation counter — validation logic for view-only counter tracking successful vs. disputed invoice counts per seller."
+license = "MIT"
+publish = false
+readme = "README.md"
+
+[lib]
+name = "seller_reputation_counter"
+path = "src/lib.rs"
+crate-type = ["rlib"]
+
+[workspace]
+
+[dev-dependencies]
