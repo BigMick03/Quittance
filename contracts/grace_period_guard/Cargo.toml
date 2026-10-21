@@ -1,0 +1,17 @@
+[package]
+name = "grace-period-guard"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.74"
+description = "Grace-period payment window check for Quittance invoices on Stellar."
+license = "MIT"
+readme = "README.md"
+keywords = ["stellar", "soroban", "payment", "grace", "quittance"]
+categories = ["finance"]
+publish = false
+
+[workspace]
+
+[lib]
+name = "grace_period_guard"
+path = "src/lib.rs"
