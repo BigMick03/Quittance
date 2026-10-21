@@ -1,0 +1,17 @@
+[package]
+name = "conversion-hint-store"
+version = "0.1.0"
+edition = "2021"
+description = "Non-authoritative conversion hint store — validation logic for display-only currency conversion hint rates with an explicit 'not authoritative' disclaimer flag."
+license = "MIT"
+publish = false
+readme = "README.md"
+
+[lib]
+name = "conversion_hint_store"
+path = "src/lib.rs"
+crate-type = ["rlib"]
+
+[workspace]
+
+[dev-dependencies]
